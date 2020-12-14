@@ -5,10 +5,6 @@ let db = require("../models");
 // MongoDB Atlas connection
 const PWD = process.env.MYDB_PWD;
 
-const databaseUrl = `mongodb+srv://mongo_admin_user:${encodeURIComponent(
-PWD
-)}@cluster0.ukn2s.mongodb.net/workout` ;
-
 mongoose.connect("mongodb://localhost/workout", {
   useNewUrlParser: true,
   useFindAndModify: false

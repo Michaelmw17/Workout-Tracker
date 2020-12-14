@@ -16,9 +16,6 @@ const PORT = process.env.PORT || 4000;
 
 // MongoDB Atlas connection
 const PWD = process.env.MYDB_PWD;
-const databaseUrl = `mongodb+srv://mongo_admin_user:${encodeURIComponent(
-PWD
-)}@cluster0.ukn2s.mongodb.net/workout` ;
 
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", { useNewUrlParser: true });
 
