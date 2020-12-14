@@ -14,7 +14,7 @@ app.use(express.static("public"));
 
 const PORT = process.env.PORT || 3000;
 
-const PWD = 'XBYTt3l0f21kLrl9'
+const PWD = ''
 const databaseUrl = `mongodb+srv://mongo_admin_user:${encodeURIComponent(
 PWD
 )}@cluster0.ukn2s.mongodb.net/workout` ;

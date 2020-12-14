@@ -1,6 +1,11 @@
 let mongoose = require("mongoose");
 let db = require("../models");
 
+const PWD = 'XBYTt3l0f21kLrl9'
+const databaseUrl = `mongodb+srv://mongo_admin_user:${encodeURIComponent(
+PWD
+)}@cluster0.ukn2s.mongodb.net/workout` ;
+
 mongoose.connect("mongodb://localhost/workout", {
   useNewUrlParser: true,
   useFindAndModify: false
