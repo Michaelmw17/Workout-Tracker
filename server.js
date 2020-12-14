@@ -12,9 +12,10 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 4000;
 
-const PWD = ''
+// MongoDB Atlas connection
+const PWD = process.env.MYDB_PWD;
 const databaseUrl = `mongodb+srv://mongo_admin_user:${encodeURIComponent(
 PWD
 )}@cluster0.ukn2s.mongodb.net/workout` ;
