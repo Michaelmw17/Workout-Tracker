@@ -16,8 +16,8 @@ module.exports = function (app) {
     app.get("/api/workouts", (req, res) => {
 
         db.Workout.find({}).then(dbWorkout => {
-            console.log("ALL WORKOUTS");
-            console.log(dbWorkout);
+            // console.log("ALL WORKOUTS");
+            // console.log(dbWorkout);
             dbWorkout.forEach(workout => {
                 var total = 0;
                 workout.exercises.forEach(e => {
@@ -52,7 +52,7 @@ module.exports = function (app) {
 
     // Create workout
     app.post("/api/workouts", ({ body }, res) => {
-        console.log("Workouts needs to be  added");
+        // console.log("Workouts needs to be  added");
         console.log(body);
 
         db.Workout.create(body).then((dbWorkout => {
@@ -66,8 +66,8 @@ module.exports = function (app) {
     app.get("/api/workouts/range", (req, res) => {
 
         db.Workout.find({}).then(dbWorkout => {
-            console.log("ALL WORKOUTS");
-            console.log(dbWorkout);
+            // console.log("ALL WORKOUTS");
+            // console.log(dbWorkout);
 
             res.json(dbWorkout);
         }).catch(err => {

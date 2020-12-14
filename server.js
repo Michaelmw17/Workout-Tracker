@@ -14,11 +14,6 @@ app.use(express.static("public"));
 
 const PORT = process.env.PORT || 4000;
 
-// MongoDB Atlas connection
-const PWD = process.env.MYDB_PWD;
-
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", { useNewUrlParser: true });
-
 mongoose.connect(
     process.env.MONGODB_URI || 'mongodb://localhost/workout',
     {
