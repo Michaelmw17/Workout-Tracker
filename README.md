@@ -12,6 +12,7 @@ This application 'Workout Tracker' for people that want to make and view the wor
 
 [Installation](#installation)  
 [Deployment](#deployment)  
+[Screenshots](#screenshots)  
 [License](#licenses)  
 [Contributing](#contributing)                                                               
 [Questions](#questions) 
@@ -24,7 +25,8 @@ This application 'Workout Tracker' for people that want to make and view the wor
  ```
    git clone https://github.com/Michaelmw17/Workout-Tracker.git
    ```
-2. Change to your own  mongoose connection details in server.js and seeders/seed.js.
+   
+2. Change to your own connection details in server.js and again in  seeders/seed.js.
 3. Install all dependent npm packages
 
    ```
@@ -40,17 +42,19 @@ This application 'Workout Tracker' for people that want to make and view the wor
 
 <a href="https://pure-gorge-67872.herokuapp.com/"> Workout Tracker App</a>
 
-<img src="./assets/home.jpg">             
-<img src="./assets/addExercise.jpg">                
-<img src="./assets/stats.jpg">               
+## Screenshots
+
+<img src="./assets/Screenshot3.png">             
+<img src="./assets/ScreenShot1.png">                
+<img src="./assets/ScreenShor2.png">               
 
 ## Licenses
 
 [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)<br />
 ## Contributing
 
-Frontend - <a href="https://www.trilogyed.com/">Trilogy Education Services</a>                 
-Backend - Michael Watt
+Michael Watt </br>
+<a href="https://www.trilogyed.com/"> Trilogy Education Services</a>
 
 ## Questions 
 
