@@ -1,57 +1,64 @@
 # Unit 17 Nosql Homework: Workout Tracker
 
-For this assignment, you'll create a workout tracker. You have already been provided with the front end code in the `Develop` folder. This assignment will require you to create Mongo database with a Mongoose schema and handle routes with Express.
+A user will create and track daily workouts to  reach their fitness achievements  more quickly when they track their  progress.
 
-## User Story
+[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)<br />
 
-* As a user, I want to be able to view create and track daily workouts. I want to be able to log multiple exercises in a workout on a given day. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.
+## Description
 
-## Business Context
+This application 'Workout Tracker' for people that want to make and view the work routines and stats.  Workout Tracker also allows them to track their workouts. 
 
-A consumer will reach their fitness goals more quickly when they track their workout progress.
+## Table of Contents
 
-## Acceptance Criteria
+[Installation](#installation)  
+[Deployment](#deployment)  
+[License](#licenses)  
+[Contributing](#contributing)                                                               
+[Questions](#questions) 
 
-When the user loads the page, they should be given the option to create a new workout or continue with their last workout.
+## Installation
 
-The user should be able to:
+1. Create a MongoDB Atlas account
+2. Clone this repo.
 
-  * Add exercises to a previous workout plan.
+ ```
+   git clone https://github.com/Michaelmw17/Workout-Tracker.git
+   ```
+2. Change to your own  mongoose connection details in server.js and seeders/seed.js.
+3. Install all dependent npm packages
 
-  * Add new exercises to a new workout plan.
+   ```
+    npm i
+   ```
+   ```
+    npm run seed
+   ```
 
-  * View the combined weight of multiple exercises on the `stats` page.
 
-To deploy an application with a MongoDB database to Heroku, you'll need to set up a MongoDB Atlas account and connect a database from there to your application. Be sure to use the following guides for support:
 
-  * [Set Up MongoDB Atlas](../04-Important/MongoAtlas-Setup.md)
+## Deployment
 
-  * [Deploy with Heroku and MongoDB Atlas](../04-Important/MongoAtlas-Deploy.md)
+<a href="https://pure-gorge-67872.herokuapp.com/"> Workout Tracker App</a>
 
-## Commit Early and Often
+<img src="./assets/home.jpg">             
+<img src="./assets/addExercise.jpg">                
+<img src="./assets/stats.jpg">               
 
-One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for the following two reasons:
+## Licenses
 
-1. Your commit history is a signal to employers that you are actively working on projects and learning new skills.
+[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)<br />
+## Contributing
 
-2. Your commit history allows you to revert your codebase in the event that you need to return to a previous state.
+Frontend - <a href="https://www.trilogyed.com/">Trilogy Education Services</a>                 
+Backend - Michael Watt
 
-Follow these guidelines for committing:
+## Questions 
 
-* Make single-purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits.
+_Michael Watt_
 
-* Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history.
+- [Github!](https://github.com/Michaelmw17)
+- [LinkedIn!](https://www.linkedin.com/in/michael-watt-6a76961b3/)
+- [Portfolio!](http://michaelmw17.github.io/)
 
-* Don't commit half-done work, for the sake of your collaborators (and your future self!).
-
-* Test your application before you commit to ensure functionality at every step in the development process.
-
-We want you to have well over 200 commits by graduation, so commit early and often!
-
-## Submission on BCS
-
-You are required to submit the following:
-
-* The URL to the deployed application
-
-* The URL to the GitHub repository
+If you have any questions regarding this project
+ - Email:(michaelmw17@outlook.com)
