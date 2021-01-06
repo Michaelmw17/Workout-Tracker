@@ -1,12 +1,13 @@
 # Unit 17 Nosql Homework: Workout Tracker
 
-A user will create and track daily workouts to  reach their fitness achievements  more quickly when they track their  progress.
+### Licence
 
-[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)<br />
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 
 ## Description
 
-This application 'Workout Tracker' for people that want to make and view the work routines and stats.  Workout Tracker also allows them to track their workouts. 
+This application 'Workout Tracker' for people that want to make and view the work routines and stats.  Workout Tracker also allows them to track their workouts. A user will create and track daily workouts to  reach their fitness achievements  more quickly when they track their  progress.
+
 
 ## Table of Contents
 
